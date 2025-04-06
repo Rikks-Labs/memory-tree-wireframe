@@ -14,7 +14,7 @@ const Higghligher = ({ highlights }: Props) => {
   return (
     <div className="relative">
       <Carousel
-        className="w-full max-w-md "
+        className="w-full "
         opts={{
           align: "start",
           loop: true,

@@ -9,7 +9,7 @@ const HomePage = async (props: Props) => {
   const previewHighlights = await getPreviewHighlights();
 
   return (
-    <div className={"text-3xl w-full h-full "}>
+    <div className={"text-3xl w-full max-w-screen-sm mx-auto h-full "}>
       <Higghligher highlights={previewHighlights} />
       <UploaderComp />
     </div>
