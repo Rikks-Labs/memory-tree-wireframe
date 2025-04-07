@@ -71,7 +71,7 @@ const MobileBottomNavbar: React.FC = () => {
           key={item.path}
           className={`${getButtonClasses(item.path)} animate-fade-in animate-delay-${
             index * 75 // Stagger animation slightly
-          }ms animate-duration-500 animate-fill-forwards cursor-pointer`}
+          }ms animate-duration-500 animate-fill-forwards cursor-pointer w-full justify-center flex`}
           onClick={() => navigate(item.path)}
           aria-label={item.label} // Accessibility improvement
         >
