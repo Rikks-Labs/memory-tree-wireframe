@@ -4,6 +4,10 @@
 /node_modules
 /.pnp
 .pnp.*
+pnpm-lock.yaml
+package-lock.json 
+yarn.lock
+yarn-error.log
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
