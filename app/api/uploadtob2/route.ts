@@ -1,6 +1,6 @@
-import { UserFileMetaData } from "@/app/types/objects";
-import { appKeyB2, appKeytIdB2, baseUrlB2, bucketIdB2 } from "@/app/utils/constants";
-import sql from "@/app/utils/db_conn";
+import { UserFileMetaData } from "#/Types/objects";
+import { appKeyB2, appKeytIdB2, baseUrlB2, bucketIdB2 } from "#/constants/constants";
+import sql from "#/lib/db";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest) {
