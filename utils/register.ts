@@ -1,6 +1,6 @@
 'use server';
 
-import { RegisterFormData } from "#/Types/objects";
+import { RegisterFormData } from "#/types/objects";
 import sql from "#/lib/db";
 import bcrypt from "bcrypt";
 

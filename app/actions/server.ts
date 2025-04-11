@@ -1,12 +1,12 @@
 'use server';
 
-import { RegisterFormData, UserFileMetaData, UserId, cookieResponse } from "#/Types/objects";
+import { RegisterFormData, UserFileMetaData, UserId, cookieResponse } from "#/types/objects";
 import { registerUser } from "#/utils/register";
 import { verify } from 'jsonwebtoken';
 import { cookies } from "next/headers";
 import { baseUrl } from "#/constants/constants";
 import sql from "#/lib/db";
-import { stat } from "fs";
+// import { stat } from "fs";
 
 
 
